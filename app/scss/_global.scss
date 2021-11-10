@@ -35,18 +35,20 @@ body {
      justify-content: space-between;
 }
 
+section{
+    padding: 40px 0px;
+}
 
-// .title{
-//     @extend %AlGrey-Bold;
-//     font-size: 36px;
-//     line-height: 49px;
-//     padding: 0px 35px;
-//     border-bottom: 2px solid $blue;
-//     text-align: center;
-//     margin: 0 auto;
-//     margin-bottom: 56px;
-//     max-width: fit-content;
-// }
+.title{
+    @extend %VollkornSC;
+    font-size: 36px;
+    line-height: 50px;
+    padding: 0 15px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    max-width: fit-content;
+}
 
 
 .global-btn{

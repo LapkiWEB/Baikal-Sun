@@ -197,12 +197,15 @@
     @extend %TenorSans;
     margin-bottom: 40px;
 }
-.menu__list-link{
+
+.menu__list-link {
     transition: all .3s;
+
     &:hover {
         color: $main;
     }
 }
+
 .menu__contacts {
     padding-top: 40px;
 }
@@ -222,5 +225,63 @@
 
 // end header
 
+// start section about
+.about {
+    background-color: #EDEDED;
+}
 
+.about__title {
+    color: $main;
+
+}
+
+.about__text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.benefits__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits__item {
+    width: 300px;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.benefits__item-img {
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 20px;
+    
+    img {
+        width: 150px;
+        height: 150px;
+    }
+}
+.benefits__item-title{
+    color: $main;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    @extend %TenorSans;
+}
+.benefits__item-text{
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+
+
+
+
+// end section about
 @import 'media';
