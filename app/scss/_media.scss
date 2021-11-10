@@ -29,6 +29,10 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+    .fees__inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 }
 
 
@@ -283,6 +287,13 @@
     .stages__item{
         margin-left: 0;
         padding: 24px 15px;
+    }
+    .fees__item {
+        width: 310px;
+        img {
+            width: 310px;
+            height: 204px;
+        }
     }
 }
 

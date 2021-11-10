@@ -644,4 +644,31 @@
 }
 
 // end section price
+
+
+// start section fees
+
+.fees{
+    background-color: $bg-grey;
+    text-align: center;
+}
+
+.fees__text{
+    margin-bottom: 40px;
+}
+.fees__inner{
+    display: flex;
+    justify-content: space-between;
+
+}
+.fees__item{
+    width: 450px;
+    margin-bottom: 25px;
+    img{
+        width: 450px;
+        height: 295px;
+    }
+}
+// end section fees
+
 @import 'media';
