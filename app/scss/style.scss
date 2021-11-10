@@ -407,10 +407,7 @@
 
 }
 
-.coaching-btn {
-    display: block;
-    margin: 0 auto;
-}
+
 
 
 // end section coaching
@@ -500,5 +497,63 @@
 }
 // end section stages
 
+// start section timetable
 
+.timetable{
+    background-color: $bg;
+}
+
+.timetable__title{
+    color: $main;
+
+}
+.timetable__text{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 26px;
+}
+
+.timetable__box{
+    border: 1px solid $main;
+    padding: 5px 30px 36px;
+    background-color: #838383;
+    margin-bottom: 50px;
+}
+.timetable__box-title{
+    color: #fff;
+    @extend %TenorSans;
+    // margin-bottom: 40px;
+    span{
+        display: block;
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
+
+.timetable__inner{
+    display: flex;
+    justify-content: space-between;
+
+}
+.timetable__item{
+    background-color: #fff;
+    border: 1px solid $main;
+    padding: 20px;
+    max-width: 410px;
+    width: 100%;
+    &+.timetable__item{
+        margin-left: 10px;
+    }
+}
+.timetable__item-title{
+    font-size: 24px;
+    line-height: 28px;
+    @extend %TenorSans;
+}
+.timetable__item-text{
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+// end section timetable
 @import 'media';

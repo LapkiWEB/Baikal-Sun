@@ -160,6 +160,17 @@
             margin: 0 auto;
         }
     }
+    .timetable__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .timetable__item{
+        margin-bottom: 20px;
+        &+.timetable__item{
+            margin-left: 0;
+
+        }
+    }
 }
 
 @media(max-width: 720px) {
@@ -230,7 +241,7 @@
 
 @media(max-width: 480px) {
     .header {
-        height: 720px;
+        height: 753px;
         background-position: top;
     }
 
@@ -300,5 +311,8 @@
     .header__title,
     .header__box {
         width: 100%;
+    }
+    .timetable__item{
+        padding: 20px 0px;
     }
 }
