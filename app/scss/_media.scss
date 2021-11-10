@@ -179,6 +179,18 @@
 
         }
     }
+    .map__inner{
+        justify-content: center;
+    }
+    .map__item{
+      img{
+          display: none;
+      }
+        iframe{
+            width: 450px;
+          
+        }
+    }
 }
 
 @media(max-width: 720px) {
@@ -293,6 +305,13 @@
         img {
             width: 310px;
             height: 204px;
+        }
+    }
+    .map__item{
+        height: auto;
+        iframe{
+            width: 310px;
+            height: 200px;
         }
     }
 }

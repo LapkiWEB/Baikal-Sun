@@ -648,27 +648,67 @@
 
 // start section fees
 
-.fees{
+.fees {
     background-color: $bg-grey;
     text-align: center;
 }
 
-.fees__text{
+.fees__text {
     margin-bottom: 40px;
 }
-.fees__inner{
+
+.fees__inner {
     display: flex;
     justify-content: space-between;
 
 }
-.fees__item{
+
+.fees__item {
     width: 450px;
     margin-bottom: 25px;
-    img{
+
+    img {
         width: 450px;
         height: 295px;
     }
 }
+
 // end section fees
+
+// start section map
+
+.map {
+    background-color: $bg-grey;
+}
+
+.map__title {
+    font-size: 24px;
+    line-height: 28px;
+    @extend %TenorSans;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.map__inner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.map__item {
+    max-width: 714px;
+    height: 430px;
+    margin-bottom: 25px;
+
+    img {
+        width: 714px;
+        height: 430px;
+    }
+
+}
+
+
+
+// end section map
 
 @import 'media';
