@@ -20,6 +20,11 @@
         }
 
     }
+
+    .stages__inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 }
 
 
@@ -150,7 +155,8 @@
 
     .coaching__item-img {
         width: 100%;
-        img{
+
+        img {
             margin: 0 auto;
         }
     }
@@ -248,6 +254,20 @@
             background-color: rgba(0, 0, 0, .7);
             backdrop-filter: blur(10px);
         }
+    }
+
+    .item1,
+    .item2,
+    .item3,
+    .item4 {
+        &::before {
+            display: none;
+        }
+    }
+
+    .stages__item{
+        margin-left: 0;
+        padding: 24px 15px;
     }
 }
 
