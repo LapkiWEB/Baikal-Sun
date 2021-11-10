@@ -16,3 +16,8 @@ $(function () {
 
 })
 
+$('.review__inner').slick({
+    arrows: false,
+    dots: true,
+    dotsClass: "my-dots",
+});
