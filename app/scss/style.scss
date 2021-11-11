@@ -62,19 +62,22 @@
 }
 
 
-.header__contacts {
+.header__contacts,
+.footer__contacts {
     text-align: center;
     @extend %TenorSans;
     font-size: 18px;
     line-height: 21px;
 }
 
-.header__contacts-address {
+.header__contacts-address,
+.footer__contacts-address {
     color: #fff;
     padding-bottom: 7px;
 }
 
-.header__contacts-phone {
+.header__contacts-phone,
+.footer__contacts-phone {
     color: $main;
 }
 
@@ -263,8 +266,8 @@
     margin-bottom: 20px;
 
     img {
-        width: 150px;
-        height: 150px;
+        width: 130px;
+        height: 130px;
     }
 }
 
@@ -550,6 +553,7 @@
     padding: 20px;
     max-width: 410px;
     width: 100%;
+    box-shadow: 0 0 40px rgba(255, 172, 22, 1) inset;
 
     &+.timetable__item {
         margin-left: 10px;
@@ -785,9 +789,11 @@
 .review__title {
     color: $main;
 }
-.review__inner{
+
+.review__inner {
     margin-bottom: 60px;
 }
+
 .review__item {
     box-shadow: 0 0 40px rgba(245, 245, 245, 1) inset;
     max-width: 900px;
@@ -795,24 +801,27 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    border: 1px solid $main;
 }
 
 .review__img {
     min-width: 170px;
     height: 170px;
-    border: 1px solid $main;
+
 
     img {
         width: 170px;
         height: 170px;
     }
 }
-.review__box{
-   max-width: 630px;
-   width: 100%;
+
+.review__box {
+    max-width: 630px;
+    width: 100%;
     padding: 0px 10px;
 }
-.review__box-name{
+
+.review__box-name {
     margin-bottom: 20px;
     text-transform: uppercase;
 }
@@ -898,6 +907,68 @@
     opacity: .75;
     color: black;
 }
+
 // end section review
+
+// start section footer
+.footer {
+    background-color: $bg;
+    // height: 212px;
+    padding: 70px 0 30px;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.footer__logo {
+    padding-left: 138px;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.footer__logo-img {
+    position: absolute;
+    left: 0;
+    top: -37px;
+    width: 135px;
+    height: 135px;
+}
+
+
+.footer__logo-name {
+    color: $main;
+    margin-bottom: 10px;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.footer__logo-school {
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff
+}
+.footer__contacts-address{
+    margin-bottom: 20px;
+}
+.footer-btn {
+    height: fit-content;
+}
+
+// end section footer
+
+
+.mardvey {
+    text-align: center;
+    color: #fff;
+    @extend %VollkornSC;
+    letter-spacing: 2px;
+
+
+}
 
 @import 'media';

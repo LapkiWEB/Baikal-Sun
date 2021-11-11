@@ -25,10 +25,12 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .price__inner{
+
+    .price__inner {
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .fees__inner {
         flex-wrap: wrap;
         justify-content: space-around;
@@ -65,6 +67,23 @@
 
     .menu__wrapper.openDone {
         width: 432px;
+    }
+
+    .footer__wrapper {
+        justify-content: space-around;
+    }
+
+    .footer__contacts {
+        display: block;
+        width: 100%;
+        order: 2;
+        margin-bottom: 30px;
+    }
+
+    .footer-btn {
+        display: block;
+        margin: 0 auto;
+        order: 2;
     }
 }
 
@@ -119,13 +138,16 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    .contacts__box{
+
+    .contacts__box {
         justify-content: center;
     }
-    .contacts__wrapper{
+
+    .contacts__wrapper {
         flex-wrap: wrap;
     }
-    .contacts__mail{
+
+    .contacts__mail {
         order: 1;
         width: 100%;
         display: block;
@@ -182,27 +204,33 @@
             margin: 0 auto;
         }
     }
-    .timetable__inner{
+
+    .timetable__inner {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .timetable__item{
+
+    .timetable__item {
         margin-bottom: 20px;
-        &+.timetable__item{
+
+        &+.timetable__item {
             margin-left: 0;
 
         }
     }
-    .map__inner{
+
+    .map__inner {
         justify-content: center;
     }
-    .map__item{
-      img{
-          display: none;
-      }
-        iframe{
+
+    .map__item {
+        img {
+            display: none;
+        }
+
+        iframe {
             width: 450px;
-          
+
         }
     }
 }
@@ -273,15 +301,28 @@
 }
 
 @media(max-width: 550px) {
-    .review__img{
+    .review__img {
         min-width: 100px;
         height: 100px;
-        img{
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .footer__social {
+        margin-bottom: 30px;
+    }
+
+    .benefits__item-img {
+        img {
             width: 100px;
             height: 100px;
         }
     }
 }
+
 @media(max-width: 480px) {
     .header {
         height: 753px;
@@ -319,36 +360,44 @@
         }
     }
 
-    .stages__item{
+    .stages__item {
         margin-left: 0;
         padding: 24px 15px;
     }
+
     .fees__item {
         width: 310px;
+
         img {
             width: 310px;
             height: 204px;
         }
     }
-    .map__item{
+
+    .map__item {
         height: auto;
-        iframe{
+
+        iframe {
             width: 310px;
             height: 200px;
         }
     }
-    .contacts__wrapper{
+
+    .contacts__wrapper {
         justify-content: center;
     }
-    .contacts__phone{
+
+    .contacts__phone {
         margin-bottom: 30px;
     }
-    .contacts__social{
+
+    .contacts__social {
         display: block;
         width: 100%;
         text-align: center;
     }
-    .contacts__mail{
+
+    .contacts__mail {
         padding-top: 30px;
         font-size: 16px;
         line-height: 18px;
@@ -361,22 +410,28 @@
         padding-top: 28px;
     }
 
-    .header__logo-img {
+
+
+    .header__logo-img,
+    .footer__logo-img {
         width: 100px;
         height: 100px;
         top: -27px;
     }
 
-    .header__logo-wrapper {
+    .header__logo-wrapper,
+    .footer__logo-wrapper {
         padding-left: 106px;
     }
 
-    .header__logo-name {
+    .header__logo-name,
+    .footer__logo-name {
         font-size: 17px;
         line-height: 20px;
     }
 
-    .header__logo-school {
+    .header__logo-school,
+    .footer__logo-school {
         top: 46px;
         line-height: 12px;
         font-size: 12px;
@@ -386,7 +441,30 @@
     .header__box {
         width: 100%;
     }
-    .timetable__item{
+
+    .timetable__item {
         padding: 20px 0px;
+    }
+
+    .footer__logo {
+        //    justify-content: center;
+        //    padding-right: auto;
+        padding-left: 0;
+
+    }
+
+    .footer__logo-wrapper {
+        text-align: left;
+        width: 100%;
+    }
+
+    .benefits__item-img {
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+    .review__img{
+        display: none;
     }
 }
