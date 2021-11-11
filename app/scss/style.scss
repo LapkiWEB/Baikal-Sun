@@ -88,7 +88,12 @@
         margin-left: 30px;
     }
 }
-
+.social__list-link{
+    img{
+        width: 30px;
+        height: 30px;
+    }
+}
 .menu__btn {
     max-width: 38px;
     z-index: 100;
@@ -415,6 +420,26 @@
 
 
 // end section coaching
+.workout__title{
+    color: $main;
+}
+.workout__text{
+    text-align: center;
+}
+// start section workout
+
+
+
+
+
+
+// end section workout
+
+
+
+
+
+
 
 
 // start section stages
@@ -543,7 +568,7 @@
 
 .timetable__inner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -551,9 +576,9 @@
     background-color: #fff;
     border: 1px solid $main;
     padding: 20px;
-    max-width: 410px;
+    max-width: 350px;
     width: 100%;
-    box-shadow: 0 0 40px rgba(255, 172, 22, 1) inset;
+    // box-shadow: 0 0 40px rgba(255, 172, 22, 1) inset;
 
     &+.timetable__item {
         margin-left: 10px;
@@ -561,14 +586,14 @@
 }
 
 .timetable__item-title {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 21px;
     @extend %TenorSans;
 }
 
 .timetable__item-text {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 21px;
     text-align: center;
 }
 
@@ -970,5 +995,44 @@
 
 
 }
+
+
+.up-btn{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    opacity: 70%;
+    z-index: 10000;
+    border-radius: 50%;
+    background-image: url("../images/icons/up.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @import 'media';

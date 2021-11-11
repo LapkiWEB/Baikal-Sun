@@ -1,13 +1,14 @@
 html,
 body {
     height: 100%;
-          @extend %TenorSans;
-        //   color: $text;
-        // position: relative;
-        // overflow-x: hidden;
-        // margin: 0 auto;
-        //   background-color: $background;
+    @extend %TenorSans;
+    //   color: $text;
+    // position: relative;
+    // overflow-x: hidden;
+    // margin: 0 auto;
+    //   background-color: $background;
 }
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -21,25 +22,27 @@ body {
 .footer {
     flex: 0 0 auto;
 }
-.container{
-  max-width: 1530px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-.header__line-wrapper {
-     max-width: 1630px;
-     margin: 0 auto;
-     padding: 0 15px; 
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
+
+.container {
+    max-width: 1530px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
-section{
+.header__line-wrapper {
+    max-width: 1630px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
     padding: 40px 0px;
 }
 
-.title{
+.title {
     @extend %VollkornSC;
     font-size: 36px;
     line-height: 50px;
@@ -51,7 +54,7 @@ section{
 }
 
 
-.global-btn{
+.global-btn {
     padding: 13px;
     background-color: $main;
     @extend %TenorSans;
@@ -61,6 +64,7 @@ section{
     width: fit-content;
     text-transform: uppercase;
     border-radius: 1px;
+
 }
 
 .coaching-btn,
@@ -70,3 +74,4 @@ section{
     display: block;
     margin: 0 auto;
 }
+

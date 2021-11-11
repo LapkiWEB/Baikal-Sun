@@ -241,6 +241,11 @@
         line-height: 30px;
     }
 
+    .timetable__item-title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
     .text {
         font-size: 16px;
     }
@@ -298,6 +303,10 @@
         line-height: 18px;
         padding: 0 10px;
     }
+    .price__item-img img{
+        width: 150px;
+        height: 160px;
+    }
 }
 
 @media(max-width: 550px) {
@@ -326,7 +335,7 @@
 @media(max-width: 480px) {
     .header {
         height: 753px;
-        background-position: top;
+        background-position: right top;
     }
 
     .header__inner {
@@ -464,7 +473,8 @@
             height: 80px;
         }
     }
-    .review__img{
+
+    .review__img {
         display: none;
     }
 }
