@@ -425,6 +425,22 @@
 }
 .workout__text{
     text-align: center;
+    margin-bottom: 30px;
+}
+.workout__inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.workout__item{
+    max-width: 714px;
+    max-height: 430px;
+     margin-bottom: 25px;
+   
+    video{
+        width: 700px;
+        height: 395px;
+    }
 }
 // start section workout
 
@@ -1002,7 +1018,7 @@
     height: 70px;
     position: fixed;
     bottom: 100px;
-    right: 10px;
+    right: 17px;
     opacity: 70%;
     z-index: 10000;
     border-radius: 50%;

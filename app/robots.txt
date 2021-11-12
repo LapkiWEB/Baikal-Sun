@@ -1,0 +1,4 @@
+User-agent: *
+Host: https://байкальское-солнце.рф/
+
+Sitemap: https://байкальское-солнце.рф/sitemap.xml

@@ -35,6 +35,9 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
+    .workout__inner {
+        justify-content: center;
+    }
 }
 
 
@@ -233,6 +236,13 @@
 
         }
     }
+    .workout__item{
+       
+            video {
+                width: 450px;
+                height: 253px;
+            }
+    }
 }
 
 @media(max-width: 720px) {
@@ -411,6 +421,13 @@
         font-size: 16px;
         line-height: 18px;
     }
+        .workout__item {
+
+            video {
+                width: 350px;
+                height: 203px;
+            }
+        }
 
 }
 
@@ -477,4 +494,11 @@
     .review__img {
         display: none;
     }
+        .workout__item {
+
+            video {
+                width: 300px;
+                height: 169px;
+            }
+        }
 }

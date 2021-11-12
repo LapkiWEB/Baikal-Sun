@@ -7,8 +7,6 @@
     <title>Тренировки по сноуборду для детей и взрослых | байкальское-солнце.рф</title>
     <meta name="description"
         content="Тренировки по сноуборду в Иркутске ❄ Школа сноуборда для детей и взрослых. Учим кататься с 6-ти лет. Круглогодичные тренировки. Звони. ☎ 8-904-140-55-51">
-    <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
-
     <meta property="og:type" content="website">
     <meta property="og:title" content="Школа сноуборда для детей и взрослых.">
     <meta property="og:description"
@@ -18,6 +16,9 @@
     <meta property="og:site_name" content="Сноуборд школа Байкальское Солнце">
     <meta property="og:locale" content="ru_RU">
 
+    <link rel="icon" href="https://байкальское-солнце.рф/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://байкальское-солнце.рф/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="https://байкальское-солнце.рф/favicon.png" type="image/png" />
 
     <link rel="canonical" href="https://байкальское-солнце.рф/">
     <link rel="stylesheet" href="css/style.min.css">
@@ -167,12 +168,13 @@
                 </a>
             </div>
         </div>
+        <a class="up-btn" href="#header">
 
+        </a>
     </header>
 
-    <a class="up-btn" href="#header">
 
-    </a>
+
 
     <div class="wrapper">
         <main class="main">
@@ -388,6 +390,31 @@
                         катанию стиль и интересные элементы, научим преодолевать препятствия, спускаться со склона с
                         любым уклоном и делать красивые видео
                     </p>
+                    <div class="workout__inner">
+                        <div class="workout__item">
+                            <video controls>
+                                <source src="images/content/sun1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+
+                         <div class="workout__item">
+                             <video controls>
+                                 <source src="images/content/sun3.mp4" type="video/mp4">
+                             </video>
+                         </div>
+
+                          <div class="workout__item">
+                              <video controls>
+                                  <source src="images/content/sun2.mp4" type="video/mp4">
+                              </video>
+                          </div>
+
+                           <div class="workout__item">
+                               <video controls>
+                                   <source src="images/content/sun4.mp4" type="video/mp4">
+                               </video>
+                           </div>
+                    </div>
                 </div>
             </section>
 
@@ -639,10 +666,10 @@
                             <img src="images/content/fees1.jpg" alt="">
                         </div>
                         <div class="fees__item">
-                            <img src="images/content/fees1.jpg" alt="">
+                            <img src="images/content/fees2.jpg" alt="">
                         </div>
                         <div class="fees__item">
-                            <img src="images/content/fees1.jpg" alt="">
+                            <img src="images/content/fees3.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -655,13 +682,13 @@
                     <div class="contacts__title title">
                         ОСТАЛИСЬ ВОПРОСЫ?
                     </div>
-                    <form class="contacts__form" action="">
+                    <form class="contacts__form" id="form">
                         <div class="contacts__box">
                             <div class="contacts__inner">
-                                <input type="text" class="contacts__item" placeholder="ИМЯ" required>
-                                <input type="text" class="contacts__item" placeholder="ТЕЛЕФОН" required>
+                                <input type="text" class="contacts__item" name="name" placeholder="ИМЯ" required>
+                                <input type="text" class="contacts__item" name="phone" placeholder="ТЕЛЕФОН" required>
                             </div>
-                            <textarea name="" id="" class="contacts__item" placeholder="СООБЩЕНИЕ"></textarea>
+                            <textarea class="contacts__item" name="text"  placeholder="СООБЩЕНИЕ"></textarea>
                         </div>
                         <button class="contacts-btn global-btn">Отправить</button>
                     </form>
@@ -722,16 +749,20 @@
                             <div class="review__item">
 
                                 <div class="review__img">
-                                    <img src="images/content/price1.png" alt="">
+                                    <img src="images/content/price2.png" alt="">
                                 </div>
                                 <div class="review__box">
                                     <div class="review__box-name">
-                                        ВОРОНИНА ЕКАТЕРИНА
+                                        Мария Петровская
                                     </div>
                                     <div class="review__box-text text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse iste eaque
-                                        aperiam magnam voluptas aliquam, dicta culpa expedita, sed rerum quia autem
-                                        vero, beatae voluptatum! Aliquid in iste eius quia.
+                                        Большое спасибо школе и тренерам! Все очень нравится ! Организация и обучение на
+                                        отличном уровне ! Буквально за несколько занятий поставили на сноуборд сына 5-ти
+                                        лет .
+                                        Тренера отлично ладят с детьми и ребята в школе очень позитивные!
+                                        За организацию процесса огромное спасибо Екатерине !
+                                        Всем рекомендую школу по Сноуборду на Академе !!!
+                                        Проще сразу научиться правильно, чем потом исправлять ошибки !
                                     </div>
                                 </div>
 
@@ -840,28 +871,13 @@
             </div>
         </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
 
+
     <script src="js/main.min.js"></script>
+
+
+
 </body>
 
 </html>
